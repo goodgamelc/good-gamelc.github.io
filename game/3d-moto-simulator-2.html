@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>3D Moto Simulator 2</title>
+    <meta name="description" content="3d-moto-simulator-2">
+    <meta name="title" content="3d-moto-simulator-2 />
+    <link href="./css/font-awesome.pro.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery.mCustomScrollbar.min.css" />
+    <link type="text/css" rel="stylesheet" href="../js/OwlCarousel/assets/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="../js/OwlCarousel/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css?v=1.4.3" />
+  </head>
+  <body>
+    <div class="master">
+      <div class="sidebar">
+        <div class="side-header clearfix">
+          <div class="burger for-mobile">
+            <i class="fal fa-bars"></i>
+          </div>
+          <a class="logo" href="../index.html">
+            <img src="../images/channels4_profile.jpg" alt="logo">
+          </a>
+          <div class="bt-more for-mobile">
+            <i class="far fa-stream"></i>
+          </div>
+        </div>
+        <ul class="side-menu mCustomScrollbar" data-mcs-theme="dark">
+          <li class="category-item">
+            <a href="../category/new-game.html">New Games </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+          
+          <li class="category-item">
+            <a href="./category/racing.html">Racing </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+          <li class="category-item">
+             
+          </li>
+          <li class="category-item">
+            <a href="./category/car.html">Car </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+          
+          <li class="category-item">
+            <a href="./category/motorbike.html">Motorbike </a>
+          </li>
+          <li class="category-item">
+            <a href="./category/running.html">Running </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+        </ul>
+      </div>
+      <div class="g-content">
+        <section class="header clearfix">
+          <div class="columns">
+            <div class="column is-4">
+              
+            </div>
+            <div class="column is-8">
+              <ul class="main-menu nav-menu">
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="columns">
+              <div class="column is-12">
+                <div class="section-title">
+                  <h3>
+                    <span class="g-icon">
+                      <i class="fal fa-stream"></i>
+                    </span> Categories
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="container-tags">
+              <a href="./category/racing.html" class="scale-button">
+                <img src="./images/racing.png" alt="Racing">
+                <span class="categoryName">Racing</span>
+              </a>
+              <a href="./category/shooting.html" class="scale-button">
+                <img src="./images/shooting.png" alt="Shooting">
+                <span class="categoryName">Shooting</span>
+              </a>
+    
+               
+               
+              <a href="./category/sports.html" class="scale-button">
+                <img src="./images/sports.png" alt="Farming">
+                <span class="categoryName">Sports</span>
+              </a>
+               
+               
+               
+              
+               
+               
+               
+              <a href="./category/car.html" class="scale-button">
+                <img src="./images/car.png" alt="Car">
+                <span class="categoryName">Car</span>
+              </a>
+              <a href="./category/motorbike.html" class="scale-button">
+                <img src="./images/motorbike.png" alt="Motorbike">
+                <span class="categoryName">Motorbike</span>
+              </a>
+               
+            </div>
+          </div>
+        </section>
+        <section class="mid-ct section-game">
+          <div class="container">
+            <div class="ads-banner hidden">
+              <span>Advertisement</span>
+              <div class="ads"></div>
+            </div>
+            <div class="columns mobile-column">
+              <div class="column is-12-tablet is-9-desktop">
+                <div class="article game-container clearfix">
+                  <div class="game-iframe-container">
+                    <iframe class="game-iframe" loading="lazy" id="game-area" src="https://ubg77.github.io/edit/3d-moto-simulator-2/" width="100%" height="600" scrolling="none" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="article-header">
+                    <div class="text">
+                      <h1>3D Moto Simulator 2</h1>
+
+                      <div class="bt-group"></div>
+                    </div>
+                    <div class="bt-group-2">
+                          <button onclick="open_fullscreen()">
+                        <i class="fal fa-expand-arrows"></i> Fullscreen </button>
+                    </div>
+                  </div>
+                  <div class="ads-banner hidden">
+                    <span>Advertisement</span>
+                    <div class="ads"></div>
+                  </div>
+                </div>
+                <div class="col-xs-12" align="center" style="font-size: 20px;">
+                  
+                  </div>
+                <div class="columns" id="more_games">
+                  <div class="column is-12">
+                    <div class="section-title">
+                      <h3>
+                        <span class="g-icon">
+                          <i class="fas fa-heart hot"></i>
+                        </span> You might also like
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="columns is-multiline listing" id="new-games">
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../3d-moto-simulator-2.html">
+                            <img src="https://ubg77.github.io/edit/3d-moto-simulator-2/logo.png" class="game-thumb" alt="3D Moto Simulator 2">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">3D Moto Simulator 2</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/3d-moto-simulator-2.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="./game/among-us.html">
+                            <img src="https://webglmath.github.io/among-us/logo.png" class="game-thumb" alt="Among Us">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Among Us</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/among-us.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="./game/money-movers-3.html">
+                            <img src="https://slope-game.github.io/new3723/money-movers-3/logo.png" class="game-thumb" alt="Money Movers 3">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Money Movers 3</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 4 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/money-movers-3.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="./game/monster-school-challenge-3.html">
+                            <img src="https://rebemanae.github.io/monster-school-challenge-3/logo.png" class="game-thumb" alt="Monster School Challenge 3">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Monster School Challenge 3</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/monster-school-challenge-3.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/eggy-car.html">
+                            <img src="https://webglmath.github.io/eggy-car/logo.png" class="game-thumb" alt="Eggy Car">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Eggy Car</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 2.5 (2 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/eggy-car.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/stunt-car-challenge-3.html">
+                            <img src="https://ubg77.github.io/edit/stunt-car-challenge-3/logo.png" class="game-thumb" alt="Stunt Car Challenge 3">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Stunt Car Challenge 3</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 4.5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/stunt-car-challenge-3.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/offroad-forest-racing.html">
+                            <img src="https://slope-game.github.io/offroad-forest-racing/logo.png" class="game-thumb" alt="Offroad Forest Racing">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Offroad Forest Racing</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 4 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/offroad-forest-racing.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/desert-car-racing-1.html">
+                            <img src="https://slope-game.github.io/desert-car-racing-1/logo.png" class="game-thumb" alt="Desert Car Racing 1">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Desert Car Racing 1</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 3 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/desert-car-racing-1.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/cyber-cars-punk-racing.html">
+                            <img src="https://classroomjq.github.io/cyber-cars-punk-racing/logo.png" class="game-thumb" alt="Cyber Cars Punk Racing">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Cyber Cars Punk Racing</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/cyber-cars-punk-racing.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/go-kart-go-ultra.html">
+                            <img src="https://ubg77.github.io/edit/go-kart-go-ultra/logo.png" class="game-thumb" alt="Go Kart Go Ultra">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Go Kart Go Ultra</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/go-kart-go-ultra.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/traffic-mania.html">
+                            <img src="https://webglmath.github.io/traffic-mania/logo.png" class="game-thumb" alt="Traffic Mania">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Traffic Mania</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/traffic-mania.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/kart-race-3d.html">
+                            <img src="https://trafficjam3d.github.io/kart-race-3d/logo.png" class="game-thumb" alt="Kart Race 3d">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Kart Race 3d</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 3 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/kart-race-3d.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-12-tablet is-3-desktop">
+                <div class="widget-sidebar hidden">
+                  <span>Advertisement</span>
+                  <div class="ads"></div>
+                </div>
+                <div class="container">
+                  <div class="columns">
+                    <div class="column is-12">
+                      <div class="section-title">
+                        <h3>
+                          <span class="g-icon">
+                            <i class="fas fa-fire-alt hot"></i>
+                            </i>
+                          </span> Hot Games
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columns is-multiline listing">
+                    <div class="column is-12 show grid1">
+                      <a href="./game/lows-adventures-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/lows-adventures-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://slope-game.github.io/lows-adventures-2/logo.png" class="small-thumb" alt="Lows Adventures 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/lows-adventures-2.html">
+                              <h3 class="grid-title ellipsis">Lows Adventures 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.85 (17 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/lows-adventures-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/lows-adventures-1.html">
+                        <div class="g-card-2">
+                          <a href="./game/lows-adventures-1.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="./images/lows 1.png"class="small-thumb" alt="Lows Adventures 1">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/lows-adventures-1.html">
+                              <h3 class="grid-title ellipsis">Lows Adventures 1</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.19 (47 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/lows-adventures-1.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/flying-cars-era.html">
+                        <div class="g-card-2">
+                          <a href="./game/flying-cars-era.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/flying-cars-era/logo.png" class="small-thumb" alt="Flying Cars Era">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/flying-cars-era.html">
+                              <h3 class="grid-title ellipsis">Flying Cars Era</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.24 (33 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/flying-cars-era.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt-4.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt-4.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt-4/logo.png" class="small-thumb" alt="Fly Car Stunt 4">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt-4.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt 4</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.65 (10 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt-4.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt-3.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt-3.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt-3/logo.png" class="small-thumb" alt="Fly Car Stunt 3">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt-3.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt 3</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.91 (16 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt-3.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt-2/logo.png" class="small-thumb" alt="Fly Car Stunt 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt-2.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.8 (10 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt/logo.png" class="small-thumb" alt="Fly Car Stunt">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.79 (31 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt.html " class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/neon-biker.html">
+                        <div class="g-card-2">
+                          <a href="./game/neon-biker.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://slope-game.github.io/neon-biker/logo.png" class="small-thumb" alt="Neon Biker">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/neon-biker.html">
+                              <h3 class="grid-title ellipsis">Neon Biker</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.19 (47 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/neon-biker.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/up-hill-racing-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/up-hill-racing-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://slope-game.github.io/up-hill-racing-2/logo.png" class="small-thumb" alt="Up Hill Racing 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/up-hill-racing-2.html">
+                              <h3 class="grid-title ellipsis">Up Hill Racing 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.85 (17 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/up-hill-racing-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/car-drift-racers-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/car-drift-racers-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://ubg77.github.io/edit/car-drift-racers-2/logo.png" class="small-thumb" alt="Car Drift Racers 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/car-drift-racers-2.html">
+                              <h3 class="grid-title ellipsis">Car Drift Racers 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.15 (24 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/car-drift-racers-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <a href="./category/new-game.html" class="new-games-btn arrow-more-game">More Games <i class="fal fa-angle-right"></i><i class="fal fa-angle-right"></i><i class="fal fa-angle-right"></i>
+          </a>
+        </div>
+        </section>
+        <section>
+          <div class="article-ct clearfix game_description mt-2">
+            <h1 class="hidden">3D Moto Simulator 2</h1>
+            <h2>3D Moto Simulator 2</h2>
+            <h2><span>3D Moto Simulator 2" is a thrilling motorcycle simulation game that offers players the opportunity to experience the excitement of riding powerful bikes in a realistic 3D environment. </span>
+            </h2>
+            <p><span> With its stunning graphics, immersive gameplay, and customizable bikes, 3D Moto Simulator 2 provides an authentic motorcycling experience for enthusiasts and casual players alike.</span>
+            </p>
+            <h2><span>Starting the Game:</span>
+            </h2>
+            <p><span>Launch 3D Moto Simulator 2 and select the "Play" option to enter the main menu. From there, choose your preferred game mode, whether it's Free Ride, Time Trial, or Stunt Challenge.</span>
+            </p>
+            <h2><span>Select Your Motorcycle: </span>
+            </h2>
+            <p><span> Before hitting the road, select your motorcycle from a variety of options, ranging from sport bikes to cruisers. Each bike has its own unique characteristics in terms of speed, acceleration, and handling, so choose the one that best suits your riding style.</span>
+            </p>
+            <h3><span>Choose Your Environment:</span>
+            </h3>
+            <p><span> Next, choose the environment where you want to ride. Explore a variety of landscapes, including city streets, highways, countryside roads, and stunt arenas, each offering its own challenges and opportunities for exploration.</span>
+            </p>
+            <h3><span>Gameplay Mechanics:</span>
+            </h3>
+            <p><span>  The objective of 3D Moto Simulator 2 varies depending on the game mode you choose. In Free Ride mode, you have the freedom to explore the open world at your own pace, while Time Trial mode challenges you to complete laps within a specified time limit. Stunt Challenge mode tests your skills with various stunt ramps and obstacles.</span>
+            </p>
+            <h3><span>Controls:</span>
+            </h3>
+            <p><span> Familiarize yourself with the controls of your motorcycle. Use the arrow keys or on-screen buttons to accelerate, brake, and steer your bike. Mastering the controls is essential for maintaining control and precision while riding.</span>
+            </p>
+            <h3><span>Navigate the Environment:</span>
+            </h3>
+            <p><span> Ride your motorcycle through the immersive 3D environment, navigating through traffic, avoiding obstacles, and exploring the scenic landscapes. Use your throttle and brakes to control your speed and maneuver through tight turns and crowded streets.</span>
+            </p>
+            <h3><span>Complete Challenges:</span>
+            </h3>
+            <p><span>In Time Trial mode, race against the clock to complete laps within the specified time limit. In Stunt Challenge mode, perform daring stunts and tricks on ramps and obstacles to earn points and achieve high scores. Challenge yourself to beat your own records and improve your skills with each attempt.</span>
+            </p>
+            <h3><span>Customize Your Bike:</span>
+            </h3>
+            <p><span>Customize your motorcycle with various paint colors, decals, and accessories to give it a unique look. Experiment with different combinations to create the perfect ride that reflects your personality and style.</span>
+            </p>
+           <h3><span> Enjoy the Experience: </span>
+            </h3>
+            <p><span>Immerse yourself in the thrilling world of 3D Moto Simulator 2 and experience the freedom and excitement of riding motorcycles in stunning 3D graphics. Whether you're cruising through the city streets, racing against the clock, or performing jaw-dropping stunts, it's sure to provide hours of entertainment and adrenaline-fueled fun. So, rev your engine, hit the road, and embark on an unforgettable motorcycling adventure in 3D Moto Simulator 2!</span>
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="../js/full.js"></script>
+</html>

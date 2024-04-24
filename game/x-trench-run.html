@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>X Trench Run</title>
+    <meta name="description" content="x-trench-run">
+    <meta name="title" content="x-trench-run/>
+    <link href="./css/font-awesome.pro.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery.mCustomScrollbar.min.css" />
+    <link type="text/css" rel="stylesheet" href="../js/OwlCarousel/assets/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="../js/OwlCarousel/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css?v=1.4.3" />
+  </head>
+  <body>
+    <div class="master">
+      <div class="sidebar">
+        <div class="side-header clearfix">
+          <div class="burger for-mobile">
+            <i class="fal fa-bars"></i>
+          </div>
+          <a class="logo" href="../index.html">
+            <img src="../images/channels4_profile.jpg" alt="logo">
+          </a>
+          <div class="bt-more for-mobile">
+            <i class="far fa-stream"></i>
+          </div>
+        </div>
+        <ul class="side-menu mCustomScrollbar" data-mcs-theme="dark">
+          <li class="category-item">
+            <a href="../category/new-game.html">New Games </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+          
+          <li class="category-item">
+            <a href="./category/racing.html">Racing </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+          <li class="category-item">
+             
+          </li>
+          <li class="category-item">
+            <a href="./category/car.html">Car </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+          
+          <li class="category-item">
+            <a href="./category/motorbike.html">Motorbike </a>
+          </li>
+          <li class="category-item">
+            <a href="./category/running.html">Running </a>
+          </li>
+          <li class="category-item">
+             
+          </li>
+        </ul>
+      </div>
+      <div class="g-content">
+        <section class="header clearfix">
+          <div class="columns">
+            <div class="column is-4">
+              
+            </div>
+            <div class="column is-8">
+              <ul class="main-menu nav-menu">
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="columns">
+              <div class="column is-12">
+                <div class="section-title">
+                  <h3>
+                    <span class="g-icon">
+                      <i class="fal fa-stream"></i>
+                    </span> Categories
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="container-tags">
+              <a href="./category/racing.html" class="scale-button">
+                <img src="./images/racing.png" alt="Racing">
+                <span class="categoryName">Racing</span>
+              </a>
+              <a href="./category/shooting.html" class="scale-button">
+                <img src="./images/shooting.png" alt="Shooting">
+                <span class="categoryName">Shooting</span>
+              </a>
+    
+               
+               
+              <a href="./category/sports.html" class="scale-button">
+                <img src="./images/sports.png" alt="Farming">
+                <span class="categoryName">Sports</span>
+              </a>
+               
+               
+               
+              
+               
+               
+               
+              <a href="./category/car.html" class="scale-button">
+                <img src="./images/car.png" alt="Car">
+                <span class="categoryName">Car</span>
+              </a>
+              <a href="./category/motorbike.html" class="scale-button">
+                <img src="./images/motorbike.png" alt="Motorbike">
+                <span class="categoryName">Motorbike</span>
+              </a>
+               
+            </div>
+          </div>
+        </section>
+        <section class="mid-ct section-game">
+          <div class="container">
+            <div class="ads-banner hidden">
+              <span>Advertisement</span>
+              <div class="ads"></div>
+            </div>
+            <div class="columns mobile-column">
+              <div class="column is-12-tablet is-9-desktop">
+                <div class="article game-container clearfix">
+                  <div class="game-iframe-container">
+                    <iframe class="game-iframe" loading="lazy" id="game-area" src="https://bitlifeonline.github.io/x-trench-run/" width="100%" height="600" scrolling="none" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="article-header">
+                    <div class="text">
+                      <h1>X Trench Run</h1>
+
+                      <div class="bt-group"></div>
+                    </div>
+                    <div class="bt-group-2">
+                          <button onclick="open_fullscreen()">
+                        <i class="fal fa-expand-arrows"></i> Fullscreen </button>
+                    </div>
+                  </div>
+                  <div class="ads-banner hidden">
+                    <span>Advertisement</span>
+                    <div class="ads"></div>
+                  </div>
+                </div>
+                <div class="col-xs-12" align="center" style="font-size: 20px;">
+                  
+                  </div>
+                <div class="columns" id="more_games">
+                  <div class="column is-12">
+                    <div class="section-title">
+                      <h3>
+                        <span class="g-icon">
+                          <i class="fas fa-heart hot"></i>
+                        </span> You might also like
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="columns is-multiline listing" id="new-games">
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../x-trench-run.html">
+                            <img src="https://bitlifeonline.github.io/x-trench-run/logo.png" class="game-thumb" alt="X Trench Run">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">X Trench Run</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/x-trench-run.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="./game/among-us.html">
+                            <img src="https://webglmath.github.io/among-us/logo.png" class="game-thumb" alt="Among Us">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Among Us</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/among-us.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="./game/money-movers-3.html">
+                            <img src="https://slope-game.github.io/new3723/money-movers-3/logo.png" class="game-thumb" alt="Money Movers 3">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Money Movers 3</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 4 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/money-movers-3.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="./game/monster-school-challenge-3.html">
+                            <img src="https://rebemanae.github.io/monster-school-challenge-3/logo.png" class="game-thumb" alt="Monster School Challenge 3">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Monster School Challenge 3</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="./game/monster-school-challenge-3.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/eggy-car.html">
+                            <img src="https://webglmath.github.io/eggy-car/logo.png" class="game-thumb" alt="Eggy Car">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Eggy Car</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 2.5 (2 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/eggy-car.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/stunt-car-challenge-3.html">
+                            <img src="https://ubg77.github.io/edit/stunt-car-challenge-3/logo.png" class="game-thumb" alt="Stunt Car Challenge 3">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Stunt Car Challenge 3</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 4.5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/stunt-car-challenge-3.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/offroad-forest-racing.html">
+                            <img src="https://slope-game.github.io/offroad-forest-racing/logo.png" class="game-thumb" alt="Offroad Forest Racing">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Offroad Forest Racing</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 4 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/offroad-forest-racing.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/desert-car-racing-1.html">
+                            <img src="https://slope-game.github.io/desert-car-racing-1/logo.png" class="game-thumb" alt="Desert Car Racing 1">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Desert Car Racing 1</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 3 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/desert-car-racing-1.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/cyber-cars-punk-racing.html">
+                            <img src="https://classroomjq.github.io/cyber-cars-punk-racing/logo.png" class="game-thumb" alt="Cyber Cars Punk Racing">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Cyber Cars Punk Racing</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/cyber-cars-punk-racing.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/go-kart-go-ultra.html">
+                            <img src="https://ubg77.github.io/edit/go-kart-go-ultra/logo.png" class="game-thumb" alt="Go Kart Go Ultra">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Go Kart Go Ultra</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/go-kart-go-ultra.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/traffic-mania.html">
+                            <img src="https://webglmath.github.io/traffic-mania/logo.png" class="game-thumb" alt="Traffic Mania">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Traffic Mania</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 5 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/traffic-mania.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-3-desktop is-6-mobile show">
+                    <div class="g-card">
+                      <div class="pic">
+                        <figure class="ratio ratio-75">
+                          <a href="../game/kart-race-3d.html">
+                            <img src="https://trafficjam3d.github.io/kart-race-3d/logo.png" class="game-thumb" alt="Kart Race 3d">
+                          </a>
+                        </figure>
+                      </div>
+                      <div class="g-info">
+                        <h3 class="grid-title ellipsis">Kart Race 3d</h3>
+                        <div class="rating ellipsis">
+                          <i class="ico fas fa-star"></i> 3 (1 Review )
+                        </div>
+                        <div class="bt-cta">
+                          <a class="cta" href="../game/kart-race-3d.html">Play Now <i class="fas fa-gamepad-alt"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-12-tablet is-3-desktop">
+                <div class="widget-sidebar hidden">
+                  <span>Advertisement</span>
+                  <div class="ads"></div>
+                </div>
+                <div class="container">
+                  <div class="columns">
+                    <div class="column is-12">
+                      <div class="section-title">
+                        <h3>
+                          <span class="g-icon">
+                            <i class="fas fa-fire-alt hot"></i>
+                            </i>
+                          </span> Hot Games
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columns is-multiline listing">
+                    <div class="column is-12 show grid1">
+                      <a href="./game/lows-adventures-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/lows-adventures-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://slope-game.github.io/lows-adventures-2/logo.png" class="small-thumb" alt="Lows Adventures 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/lows-adventures-2.html">
+                              <h3 class="grid-title ellipsis">Lows Adventures 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.85 (17 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/lows-adventures-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/lows-adventures-1.html">
+                        <div class="g-card-2">
+                          <a href="./game/lows-adventures-1.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="./images/lows 1.png"class="small-thumb" alt="Lows Adventures 1">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/lows-adventures-1.html">
+                              <h3 class="grid-title ellipsis">Lows Adventures 1</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.19 (47 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/lows-adventures-1.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/flying-cars-era.html">
+                        <div class="g-card-2">
+                          <a href="./game/flying-cars-era.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/flying-cars-era/logo.png" class="small-thumb" alt="Flying Cars Era">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/flying-cars-era.html">
+                              <h3 class="grid-title ellipsis">Flying Cars Era</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.24 (33 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/flying-cars-era.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt-4.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt-4.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt-4/logo.png" class="small-thumb" alt="Fly Car Stunt 4">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt-4.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt 4</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.65 (10 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt-4.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt-3.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt-3.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt-3/logo.png" class="small-thumb" alt="Fly Car Stunt 3">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt-3.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt 3</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.91 (16 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt-3.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt-2/logo.png" class="small-thumb" alt="Fly Car Stunt 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt-2.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.8 (10 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/fly-car-stunt.html">
+                        <div class="g-card-2">
+                          <a href="./game/fly-car-stunt.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://bitlifeonline.github.io/fly-car-stunt/logo.png" class="small-thumb" alt="Fly Car Stunt">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/fly-car-stunt.html">
+                              <h3 class="grid-title ellipsis">Fly Car Stunt</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.79 (31 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/fly-car-stunt.html " class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/neon-biker.html">
+                        <div class="g-card-2">
+                          <a href="./game/neon-biker.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://slope-game.github.io/neon-biker/logo.png" class="small-thumb" alt="Neon Biker">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/neon-biker.html">
+                              <h3 class="grid-title ellipsis">Neon Biker</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.19 (47 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/neon-biker.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/up-hill-racing-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/up-hill-racing-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://slope-game.github.io/up-hill-racing-2/logo.png" class="small-thumb" alt="Up Hill Racing 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/up-hill-racing-2.html">
+                              <h3 class="grid-title ellipsis">Up Hill Racing 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 3.85 (17 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/up-hill-racing-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="column is-12 show grid1">
+                      <a href="./game/car-drift-racers-2.html">
+                        <div class="g-card-2">
+                          <a href="./game/car-drift-racers-2.html">
+                            <div class="pic">
+                              <figure class="ratio ratio-6">
+                                <img src="https://ubg77.github.io/edit/car-drift-racers-2/logo.png" class="small-thumb" alt="Car Drift Racers 2">
+                              </figure>
+                            </div>
+                          </a>
+                          <div class="g-info">
+                            <a href="./game/car-drift-racers-2.html">
+                              <h3 class="grid-title ellipsis">Car Drift Racers 2</h3>
+                              <div class="rating ellipsis">
+                                <i class="ico fas fa-star"></i> 4.15 (24 Reviews )
+                              </div>
+                            </a>
+                            <a href="./game/car-drift-racers-2.html" class="bt-play">
+                              <i class="fas fa-play-circle"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <a href="./category/new-game.html" class="new-games-btn arrow-more-game">More Games <i class="fal fa-angle-right"></i><i class="fal fa-angle-right"></i><i class="fal fa-angle-right"></i>
+          </a>
+        </div>
+        </section>
+        <section>
+          <div class="article-ct clearfix game_description mt-2">
+            <h1 class="hidden">X Trench Run</h1>
+            <h2>X Trench Run</h2>
+            <h2><span>X-Trench Run" is an intense and action-packed space combat game that puts players in the cockpit of a powerful starfighter as they engage in thrilling dogfights against enemy forces. </span>
+            </h2>
+            <p><span> Set in the depths of space, this game combines fast-paced gameplay, stunning visuals, and strategic decision-making to deliver an immersive and adrenaline-fueled experience.</span>
+            </p>
+            <h2><span>Launching the Game:</span>
+            </h2>
+            <p><span>Start X-Trench Run and select the "Play" option to dive into the heart of the action. You'll find yourself in the cockpit of a sleek starfighter, ready to take on enemy forces.</span>
+            </p>
+            <h2><span>Choose Your Mission:</span>
+            </h2>
+            <p><span>Before you embark on your mission, you'll have the option to select from a variety of missions with different objectives and challenges. Choose the mission that suits your play style and preferences.</span>
+            </p>
+            <h3><span>Gameplay Mechanics:</span>
+            </h3>
+            <p><span>The objective of X-Trench Run is to complete your mission objectives while navigating through treacherous space environments and engaging in intense dogfights with enemy spacecraft.</span>
+            </p>
+            <h3><span>Controls: </span>
+            </h3>
+            <p><span>    Familiarize yourself with the controls of your starfighter. Use the arrow keys or joystick to maneuver your spacecraft, the spacebar to fire your primary weapons, and the "Ctrl" key to activate secondary weapons or abilities.</span>
+            </p>
+            <h3><span>Engage in Dogfights:</span>
+            </h3>
+            <p><span> Prepare for intense dogfights as you encounter enemy spacecraft throughout your mission. Use your piloting skills and firepower to outmaneuver and eliminate enemy fighters while avoiding their attacks.</span>
+            </p>
+            <h3><span>Complete Mission Objectives:</span>
+            </h3>
+            <p><span>Each mission in X-Trench Run has specific objectives that you must complete to succeed. These objectives may include destroying enemy targets, protecting allied ships, or infiltrating enemy bases. Keep a close eye on your mission briefing to understand your goals and prioritize them accordingly.</span>
+            </p>
+            <h3><span>Upgrade Your Starfighter:</span>
+            </h3>
+            <p><span>As you progress through the game, you'll earn credits that can be used to upgrade your starfighter with new weapons, shields, engines, and other enhancements. Invest in upgrades that suit your play style and improve your chances of success in combat.</span>
+            </p>
+            <h3><span>Navigate Through Space Environments: </span>
+            </h3>
+            <p><span>Maneuver your starfighter through diverse space environments, including asteroid fields, nebulae, and space stations. Be cautious of obstacles and environmental hazards that can damage your starfighter or impede your progress.</span>
+            </p>
+           <h3><span> Survive Enemy Waves:</span>
+            </h3>
+            <p><span> Prepare for challenging waves of enemy spacecraft as you progress through each mission. Stay vigilant and adapt your tactics to overcome increasingly difficult enemy encounters.</span>
+            </p>
+            <h3><span> Utilize Power-Ups: </span>
+            </h3>
+            <p><span>Throughout your mission, you'll encounter power-ups that can provide temporary advantages such as increased firepower, shields, or speed boosts. Collect these power-ups strategically to gain an edge in combat.</span>
+            </p>
+            <h3><span> Strategize and Adapt:  </span>
+            </h3>
+            <p><span>Success in X-Trench Run requires strategic thinking and adaptability. Assess the battlefield, prioritize targets, and adjust your tactics as the situation evolves to maximize your effectiveness and complete your mission objectives.</span>
+            </p>
+            <h3><span> Enjoy the Experience: </span>
+            </h3>
+            <p><span> Immerse yourself in the adrenaline-pumping action of X-Trench Run and experience the thrill of epic space battles. With its immersive gameplay, stunning visuals, and challenging missions, it's sure to keep you on the edge of your seat for hours on end. So, climb into the cockpit, engage your enemies, and become the ultimate starfighter ace in X-Trench Run!</span>
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="../js/full.js"></script>
+</html>
